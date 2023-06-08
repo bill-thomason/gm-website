@@ -1,7 +1,13 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
-  font-size: var(--body-font-size-s);
+  background-color: black;
+  font-size: 15px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: .4px;
+  line-height: 1.6em;
+
 }
 
 footer .footer {
@@ -11,4 +17,10 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+  color: white;
+  text-align: center;
+}
+
+footer .footer a {
+  color: white;
 }
