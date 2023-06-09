@@ -1,0 +1,7 @@
+.centeredtextblock {
+    text-align: center;
+}
+
+.centeredtextblock > div > div > h1 {
+    text-align: center;
+}
