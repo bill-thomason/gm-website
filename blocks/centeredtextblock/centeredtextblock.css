@@ -1,7 +1,42 @@
 .centeredtextblock {
     text-align: center;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.6em;
+    letter-spacing: .4px;
+    
 }
 
 .centeredtextblock > div > div > h1 {
     text-align: center;
+    font-family: Raleway;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 1.1em;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+}
+
+.centeredtextblock > div > div > h3 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.4em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.centeredtextblock > div > div > p {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.6em;
+    letter-spacing: .4px;
 }
