@@ -1,0 +1,12 @@
+.youtubeplayer {
+    pointer-events: none;
+}
+
+.youtubeplayer a.button {
+    display: none;
+    visibility: none;
+}
+
+.youtubeplayer picture {
+    display: none;
+}
