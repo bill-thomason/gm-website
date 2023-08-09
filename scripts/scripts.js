@@ -40,7 +40,7 @@ function buildAutoBlocks(main) {
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
-  }
+  } 
 }
 
 /**
@@ -52,7 +52,7 @@ export function decorateMain(main) {
   // hopefully forward compatible button decoration
   decorateButtons(main);
   decorateIcons(main);
-  buildAutoBlocks(main);
+  // buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
 }
