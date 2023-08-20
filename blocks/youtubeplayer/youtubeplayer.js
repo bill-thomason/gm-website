@@ -5,6 +5,7 @@ export default function decorate(block) {
     myiframe.setAttribute("src", myhref);
     myiframe.setAttribute("id", "player");
     myiframe.setAttribute("style", "position: relative; inset: 0px 0px 0px -21.222px; width: 1340.44px; height: 754px;");
+    //myiframe.setAttribute("style", "position: relative; inset: 0px 0px 0px -21.222px; width: 100%; height: 100%;");
     myiframe.setAttribute("frameborder", "0");
     myiframe.setAttribute("allowfullscreen", "1'");
     myiframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
