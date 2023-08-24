@@ -8,7 +8,7 @@ export default function init(block) {
     //myiframe.setAttribute("style", "position: relative; inset: 0px 0px 0px -21.222px; width: 100%; height: 100%;");
     myiframe.setAttribute("frameborder", "0");
     myiframe.setAttribute("allowfullscreen", "1'");
-    myiframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
+    myiframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;");
     myiframe.setAttribute("title", "PRORASO IN SALT LAKE CITY");
     myiframe.setAttribute("width", "640");
     myiframe.setAttribute("height", "360");
