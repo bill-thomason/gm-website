@@ -1,4 +1,4 @@
-export default function decorate(block) {
+export default function init(block) {
     const myiframe = document.createElement('iframe');
     const buttons = block.getElementsByClassName('button');
     const myhref = buttons[0].href;
