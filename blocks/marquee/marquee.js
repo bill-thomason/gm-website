@@ -1,4 +1,4 @@
-export default function decorate(block) {
+export default function init(block) {
     block.setAttribute("id", "introduction")
     // loop through all divv containers.
     for (let i = 0; i < block.children.length; i++) {
