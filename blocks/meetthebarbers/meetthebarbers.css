@@ -15,21 +15,44 @@
 .meetthebarbers {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    justify-content: stretch;
+    align-items: end;
 }
 
 .meetthebarbers .portrait {
     padding: 10px 10px 10px 10px;
+    object-fit: fill;
+    display:grid;
+}
+
+
+.meetthebarbers .portrait .face {
+    object-fit: fill;
+    padding: 0;
+}
+
+.meetthebarbers .portrait .face picture {
+    object-fit: fill;
+}
+
+.meetthebarbers .portrait .face picture img {
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /*
-.meetthebarbers .portrait .face {
-    border-radius:25px;
+.meetthebarbers .portrait .face picture img::before {
+    position:absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background: inherit;
+    content: "";
+    border-radius: 5% / 50%;
+    object-fit: cover;
 }
 */
-
-.meetthebarbers .portrait .face picture img {
-    border-radius:25px;
-}
 
 .meetthebarbers .portrait .name {
     text-align: left;
