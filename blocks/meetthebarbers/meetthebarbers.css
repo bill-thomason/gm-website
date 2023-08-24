@@ -1,0 +1,36 @@
+.section.meetthebarbers-container {
+    padding: 0;
+}
+
+
+.section.meetthebarbers-container .meetthebarbers-wrapper {
+    max-width: 100%;
+    display: inline;
+}
+
+#meet-the-barbers {
+    text-align: center;
+}
+
+.meetthebarbers {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.meetthebarbers .portrait {
+    padding: 10px 10px 10px 10px;
+}
+
+/*
+.meetthebarbers .portrait .face {
+    border-radius:25px;
+}
+*/
+
+.meetthebarbers .portrait .face picture img {
+    border-radius:25px;
+}
+
+.meetthebarbers .portrait .name {
+    text-align: left;
+}
