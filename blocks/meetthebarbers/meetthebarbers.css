@@ -14,13 +14,15 @@
 
 .meetthebarbers {
     display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
     grid-template-columns: auto auto auto auto;
     justify-content: stretch;
     align-items: end;
 }
 
 .meetthebarbers .portrait {
-    padding: 10px 10px 10px 10px;
+    /*padding: 10px 10px 10px 10px; */
     object-fit: fill;
     display:grid;
 }
