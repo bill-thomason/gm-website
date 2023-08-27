@@ -3,8 +3,9 @@
 }
 
 
-.section.meetthebarbers-container .meetthebarbers-wrapper {
-    max-width: 100%;
+.section.meetthebarbers-container {
+    height: 100vh;
+    width: 100vw;
     display: inline;
 }
 
@@ -33,18 +34,18 @@
 }
 
 .meetthebarbers .portrait .face picture {
-    object-fit: fill;
+    object-fit: scale-down;
 }
 
 .meetthebarbers .portrait .face picture img {
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 
 
 .meetthebarbers .portrait .name {
-    text-align: left;
+    text-align: center;
     font-style: oblique;
     font-weight: bold;
 }
