@@ -23,16 +23,29 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    max-height: inherit;
+    box-sizing: border-box;
 }
 
 
 .marquee .foreground {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     position: relative;
     color: white;
 }
 
-.marquee .background picture {
+
+.marquee .background div {
+    max-height: inherit;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.marquee .background div picture {
     position: relative;
     top: 0;
     left: 0;
@@ -40,9 +53,11 @@
     right: 0;
     object-fit: cover;
     box-sizing: border-box;
+    max-height: inherit;
+    
 }
 
-.marquee .background picture img {
+.marquee .background div picture img {
     position: relative;
     object-fit: cover;
     top: 0;
@@ -50,7 +65,9 @@
     bottom: 0;
     right: 0;
     width: 100%;
-    height: 100%;
+    max-height: inherit;
+    box-sizing: border-box;
+    /*height: 100%;*/
 }
 
 .marquee .button-container {
