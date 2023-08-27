@@ -1,8 +1,11 @@
 
 .section.ourstory-container {
     padding: 0;
+    width: 100%;
+    height: 100%;
+    max-width:100%;
+    display: block;
 }
-
 
 .section.ourstory-container .ourstory-wrapper {
     max-width: 100%;
@@ -10,18 +13,10 @@
 }
 
 
-
-
 .ourstory {
     width: 100%;
     height: 100%;
-/*
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-*/
+
 }
 
 
@@ -50,7 +45,7 @@
 
 .ourstory .background picture img {
     position: relative;
-    object-fit: cover;
+    object-fit: fill;
     top: 0;
     left: 0;
     bottom: 0;
