@@ -16,13 +16,12 @@
     display: grid;
     row-gap: 10px;
     column-gap: 10px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
     justify-content: stretch;
     align-items: end;
 }
 
 .meetthebarbers .portrait {
-    /*padding: 10px 10px 10px 10px; */
     object-fit: fill;
     display:grid;
 }
@@ -42,20 +41,9 @@
     object-fit: cover;
 }
 
-/*
-.meetthebarbers .portrait .face picture img::before {
-    position:absolute;
-    top: 10%;
-    bottom: 10%;
-    right: -5%;
-    left: -5%;
-    background: inherit;
-    content: "";
-    border-radius: 5% / 50%;
-    object-fit: cover;
-}
-*/
+
 
 .meetthebarbers .portrait .name {
     text-align: left;
+    font-style: oblique;
 }
