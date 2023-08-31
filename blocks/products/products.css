@@ -1,0 +1,84 @@
+.section.products-container {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    max-width:100%;
+    display: inline;
+}
+
+.section.products-container .products-wrapper {
+    max-width: 100%;
+    display: inline;
+}
+
+
+.products {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.products .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.products .foreground {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.products .background picture {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.products .background picture img {
+    position: relative;
+    object-fit: fill;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.products .button-container {
+    z-index: 0;
+    margin: 10px;
+    position: relative;
+}
+
+.products .button-container a.button {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: white;
+  cursor: pointer;
+  border-style: double;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+  
+
+}
+
+.products .button-container a.button:hover {
+    background-color: var(--highlight-background-color);
+}
