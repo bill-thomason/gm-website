@@ -1,0 +1,126 @@
+.section.shop-info-container {
+    padding: 0;
+}
+
+
+.section.shop-info-container .shop-info-wrapper {
+    max-width: 100%;
+    display: inline;
+}
+
+
+/*
+div.shop-info-container div.shop-info-wrapper {
+    max-width: 100%;
+    display: block;
+    height: inherit;
+}
+*/
+
+.shop-info {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+.shop-info .background {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    max-height: inherit;
+    box-sizing: border-box;
+}
+
+.shop-info .background div {
+    height: inherit;
+    max-height: inherit;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.shop-info .background div picture{
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+    max-height: inherit;
+}
+
+
+.shop-info .background div picture img {
+    position: relative;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    max-height: inherit;
+    box-sizing: border-box;
+    /*height: 100%;*/
+}
+
+
+.shop-info .foreground {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.shop-info .foreground p {
+    text-align: center;
+}
+
+/*
+.shop-info .button-container a.button {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: white;
+    cursor: pointer;
+    border-style: double;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    
+  
+  }
+  
+  .shop-info .button-container a.button:hover {
+      background-color: var(--highlight-background-color);
+  }
+  */
+
+  .shop-info .button-container [title~=EMAIL]{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: white;
+    cursor: pointer;
+    border-style: double;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+  }
+
+  .shop-info .button-container [title~=MAP] {
+    display: none;
+  }
+
+  .shop-info .button-container [title~=EMAIL]:hover {
+    background-color: var(--highlight-background-color);
+  }
