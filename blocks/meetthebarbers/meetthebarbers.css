@@ -38,7 +38,8 @@
 }
 
 .meetthebarbers .portrait .face picture img {
-    border-radius: 50%;
+    /*border-radius: 50%; */
+    clip-path: ellipse(40% 50% at 50% 50%);
     object-fit: scale-down;
 }
 
