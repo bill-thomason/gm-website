@@ -59,6 +59,7 @@
 }
 
 .marquee .background div picture img {
+    filter: brightness(50%);
     position: relative;
     object-fit: cover;
     top: 0;
