@@ -124,3 +124,10 @@ div.shop-info-container div.shop-info-wrapper {
   .shop-info .button-container [title~=EMAIL]:hover {
     background-color: var(--highlight-background-color);
   }
+
+  #gmap {
+    width: 400;
+    height: 300;
+    border: 0;
+    
+  }

@@ -17,6 +17,20 @@ export default function init(block) {
             child.setAttribute("class", "foreground");
         }
     }
+
+    var mapButton = document.querySelector('[title="MAP"]');                // this is the link node inside the partent button container
+    var mapParentNode = document.querySelector('[title="MAP"]').parentNode; // button container to insert iframe after
+    var mapGrandparentNode = document.querySelector('[title="MAP"]').parentNode.parentNode;
+    var mapURL = mapButton.href;
+    var gmapFrame = document.createElement('iframe');
+    gmapFrame.setAttribute("id", "gmap");
+    gmapFrame.setAttribute("src", mapURL);
+    gmapFrame.setAttribute("allowfullscreen", "");
+    gmapFrame.setAttribute("loading","lazy");
+    gmapFrame.setAttribute("referrerpolicy","no-referrer-when-downgrade");
+    mapGrandparentNode.insertBefore(gmapFrame,mapParentNode);
+
+
     
 
 }
