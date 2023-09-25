@@ -1,9 +1,5 @@
 .section.products-container {
     padding: 0;
-    width: 100%;
-    height: 100%;
-    max-width:100%;
-    display: inline;
 }
 
 .section.products-container .products-wrapper {
@@ -14,15 +10,17 @@
 
 .products {
     width: 100%;
-    height: 100%;
+    height: 80vh;
 
 }
 
 
 .products .background {
     width: 100%;
-    height: 100%;
+    height: inherit;
     position: absolute;
+    max-height: inherit;
+    box-sizing: border-box;
 }
 
 
@@ -35,7 +33,16 @@
     color: white;
 }
 
-.products .background picture {
+
+.products .background div {
+    height: inherit;
+    max-height: inherit;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.products .background div picture {
     position: relative;
     top: 0;
     left: 0;
@@ -43,17 +50,20 @@
     right: 0;
     object-fit: cover;
     box-sizing: border-box;
+    max-height: inherit;
 }
 
-.products .background picture img {
+.products .background div picture img {
     position: relative;
-    object-fit: fill;
+    object-fit: cover;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     width: 100%;
     height: 100%;
+    max-height: inherit;
+    box-sizing: border-box;
 }
 
 .products .button-container {
@@ -81,4 +91,13 @@
 
 .products .button-container a.button:hover {
     background-color: var(--highlight-background-color);
+}
+
+
+.products .button-container a[title="YouTube video player"] {
+    display: none;
+  }
+
+.products #player {
+    
 }
