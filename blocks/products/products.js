@@ -26,5 +26,5 @@ export default function init(block) {
     player.setAttribute("height", "360");
     player.setAttribute("class", "background-video ready");
 
-    foregroundContainer.insertBefore(player, buttonContainer);
+    foregroundContainer.insertBefore(player, buttonContainer); 
 }
